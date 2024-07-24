@@ -50,10 +50,6 @@
      npm run build
      ```
 
-  ## Tutorials and Resources
-
-  For a step-by-step guide on building this HealthCare Management System, refer to the detailed tutorial available on our YouTube channel. The tutorial covers everything from setting up the development environment to deploying the finished application.
-
   ## Contributing
 
   Contributions are welcome! If you’d like to contribute to the project, please follow these steps:
