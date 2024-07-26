@@ -1,7 +1,7 @@
 "use client";
 
-import Head from "next/head";
 import * as Sentry from "@sentry/nextjs";
+import Head from "next/head";
 
 export default function Page() {
   return (
@@ -65,7 +65,7 @@ export default function Page() {
 
         <p>
           Next, look for the error on the{" "}
-          <a href="https://nil-6xk.sentry.io/issues/?project=4507646750162944">Issues Page</a>.
+          <a href="https://none-00x.sentry.io/issues/?project=4507651613196288">Issues Page</a>.
         </p>
         <p style={{ marginTop: "24px" }}>
           For more information, see{" "}
