@@ -37,6 +37,7 @@ const RegisterForm = ({ user }: { user: User }) => {
       name: user.name,
       email: user.email,
       phone: user.phone,
+      gender: 'male' as 'male' | 'female' | 'other',
     },
   });
 
@@ -59,13 +60,13 @@ const RegisterForm = ({ user }: { user: User }) => {
     }
 
     try {
-      const patient = {
+      const patient: RegisterUserParams = {
         userId: user.$id,
         name: values.name,
         email: values.email,
         phone: values.phone,
         birthDate: new Date(values.birthDate),
-        gender: values.gender,
+        gender: values.gender as Gender,
         address: values.address,
         occupation: values.occupation,
         emergencyContactName: values.emergencyContactName,
