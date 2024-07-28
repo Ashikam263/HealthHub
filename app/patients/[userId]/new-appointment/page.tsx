@@ -11,7 +11,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[860px] flex-1 justify-between">
           <Image
-            src="/assets/icons/logo-full.svg"
+            src="/assets/icons/logo-full-new.svg"
             height={1000}
             width={1000}
             alt="logo"
@@ -24,12 +24,12 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
             type="create"
           />
 
-          <p className="copyright mt-10 py-12">© 2024 CarePluse</p>
+          <p className="copyright mt-10 py-12">© 2024 HealthHub</p>
         </div>
       </section>
 
       <Image
-        src="/assets/images/appointment-img.png"
+        src="/assets/images/appointment-img.jpg"
         height={1500}
         width={1500}
         alt="appointment"
